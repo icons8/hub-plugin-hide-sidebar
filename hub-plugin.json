@@ -1,0 +1,15 @@
+{
+  "name": "hide-sidebar",
+  "icon": "icon.png",
+  "description": "A button with a panel icon folds and restores the hub's sidebar, like in Claude. It sits in the sidebar header; while the sidebar is folded, at the left edge of the page. The panel slides out and in smoothly; the fold is the hub's own, the same as the divider's handle.",
+  "why": "More room for a conversation when the chat list is not needed",
+  "i18n": {
+    "ru": {
+      "description": "Кнопка со значком панели сворачивает и возвращает боковую панель хаба, как в Claude. Стоит в шапке панели, а когда панель свёрнута, у левого края страницы. Панель плавно выезжает и заезжает; свёртка та же, что у ручки разделителя.",
+      "why": "Больше места под разговор, когда список чатов не нужен"
+    }
+  },
+  "version": "1.5.0",
+  "hub": "^1.31",
+  "web": "main.js"
+}
